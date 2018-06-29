@@ -1,18 +1,15 @@
 {
-  "name": "egg-init",
-  "version": "1.14.0",
-  "description": "Init egg app helper tools.",
+  "name": "daisy-init",
+  "version": "1.0.0",
+  "description": "Init project helper tools.",
   "main": "lib/init_command.js",
   "scripts": {
     "lint": "eslint bin lib test",
-    "test": "npm run lint -- --fix && egg-bin test",
-    "cov": "egg-bin cov",
-    "ci": "npm run lint && egg-bin cov",
     "autod": "autod"
   },
   "preferGlobal": true,
   "bin": {
-    "egg-init": "bin/egg-init.js"
+    "egg-init": "bin/generator.js"
   },
   "files": [
     "bin",
@@ -21,8 +18,8 @@
   "dependencies": {
     "co": "^4.6.0",
     "colors": "^1.1.2",
-    "compressing": "^1.2.3",
-    "egg-init-config": "^1.2.0",
+    "download-git-repo": "^1.0.2",
+    "fs-extra": "^6.0.1",
     "glob": "^7.1.2",
     "group-object": "^0.1.1",
     "inquirer": "^3.0.6",
@@ -32,10 +29,7 @@
     "mem-fs-editor": "^3.0.2",
     "mkdirp": "^0.5.1",
     "mz-modules": "^2.0.0",
-    "node-homedir": "^1.1.0",
-    "npm-updater": "^3.0.3",
-    "urllib": "^2.25.1",
-    "proxy-agent": "^2.1.0",
+    "ora": "^2.1.0",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
