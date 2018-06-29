@@ -46,12 +46,7 @@
     "proxy": "^0.2.4",
     "webstorm-disable-index": "^1.0.11"
   },
-  "homepage": "https://github.com/eggjs/egg-init",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eggjs/egg-init.git"
-  },
-  "bugs": "https://github.com/eggjs/egg/issues",
+  "homepage": "https://github.com/ryansecret",
   "keywords": [
     "init"
   ],
