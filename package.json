@@ -9,7 +9,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "egg-init": "bin/generator.js"
+    "daisy-init": "bin/generator.js"
   },
   "files": [
     "bin",
@@ -53,8 +53,7 @@
   },
   "bugs": "https://github.com/eggjs/egg/issues",
   "keywords": [
-    "egg",
-    "egg-init"
+    "init"
   ],
   "ci": {
     "version": "4, 6, 8"
