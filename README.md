@@ -1,4 +1,4 @@
-egg-init
+daisy-init
 =======
 
 [![NPM version][npm-image]]
