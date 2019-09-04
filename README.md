@@ -13,6 +13,15 @@ daisy-init
 $ npm i daisy-init -g
 $ daisy-init -h
 ```
+### 用法
+可以传入git 地址和branch
+```text
+daisy-init --origin github.com:ryansecret/tsTemplate --branch template
+
+daisy-init --origin gitlab:git.jd.com:daasfe/mndb --branch template
+
+```
+
 
 ## License
 
